@@ -1,0 +1,79 @@
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+body{background: #E9EAED;}
+.top{width: 100%;height: 55px;background: #000;}
+.top .logo{float: left;margin-right: 60px;margin-left: 75px;line-height: 55px;font-size: 30px;}
+.top .logo a{color: white;}
+.nav{width: 900px;height: 55px;margin-left:375px;}
+.nav ul :hover{color: #00c1de;}
+.nav ul li{float: left;margin-top: 17px;}
+.nav ul li span a{color: #00c1de;}
+.nav ul li a{color: rgb(255, 255, 255);padding: 0 20px;}
+.nav img{width: 20px; color: rgb(255, 255, 255);padding: 18px; float: right; }
+.nav ul .ul-1{position: absolute;display: none;width: 95px;height: 95px;background: #000;z-index: 99;top: 38px;left: 178px;}
+.nav ul .li-1{position: relative;}
+.nav .li-1:hover .ul-1{display: block;}
+.nav .ul-1 li{margin-top: 20px;}
+.nav ul .ul-1 li a{color: #fff;font-size: 13px;}
+.nav ul .ul-1 li a:hover{color: #00c1de;text-decoration: underline;}
+.nav .input .input1{
+    margin-left: 180px;
+    margin-top: 17px;
+    width: 150px;
+    height: 22px;
+    border: none;
+    outline: 0;
+    text-indent: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: white;
+}
+.main{
+    background: url(../css/img/smh.jpg);
+    width: 1100px;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+.main .tx {
+    width: 1000px;
+    height: 150px;
+}
+.main .tx img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.main .tx img:hover{
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    transition: 2s;
+}
+.main .tx .nr{
+    float: left;
+    margin-top:140px;
+    margin-left: 20px;
+}
+.main .tx .nr p{
+    margin-top: 10px;
+}
+.main .gyw p{
+    font-size: 18px;
+    margin-left: 150px;
+    margin-top: 60px;
+
+}
+.footer{ margin-top: 60px;  width: 100%;height: 150px;background: #000;}
+.footer h2{padding: 65px;text-align: center;color: #fff;}
+
+
+
+
+
+
+
+

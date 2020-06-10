@@ -1,0 +1,163 @@
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+body{background: #E9EAED;}
+.top{width: 100%;height: 55px;background: #000;}
+.top .logo{float: left;margin-right: 60px;margin-left: 75px;line-height: 55px;font-size: 30px;}
+.top .logo a{color: white;}
+.nav{width: 900px;height: 55px;margin-left:375px;}
+.nav ul :hover{color: #00c1de;}
+.nav ul li{float: left;margin-top: 17px;}
+.nav ul li span a{color: #00c1de;}
+.nav ul li a{color: rgb(255, 255, 255);padding: 0 20px;}
+.nav img{width: 20px; color: rgb(255, 255, 255);padding: 18px; float: right; }
+.nav ul .ul-1{position: absolute;display: none;width: 95px;height: 95px;background: #000;z-index: 99;top: 38px;left: 178px;}
+.nav ul .li-1{position: relative;}
+.nav .li-1:hover .ul-1{display: block;}
+.nav .ul-1 li{margin-top: 20px;}
+.nav ul .ul-1 li a{color: #fff;font-size: 13px;}
+.nav ul .ul-1 li a:hover{color: #00c1de;text-decoration: underline;}
+.nav .input .input1{
+    margin-left: 180px;
+    margin-top: 17px;
+    width: 150px;
+    height: 22px;
+    border: none;
+    outline: 0;
+    text-indent: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: white;
+}
+.banner {position: relative;width: 1200px;height: 1330px;;margin: auto;}
+.banner .banner1{float: left;width: 616px; height: 260px;margin-top: 20px;z-index: -1;}
+.banner .banner1 a img{ float: left; width: 616px; height: 260px;}
+.banner .headline{width: 270px; height: 125px;float: left;}
+.banner .headline ul{margin-top: 20px;margin-left: 10px;}
+.banner .headline ul li{margin-top: 6px;}
+.banner .headline ul li a img{width: 274px; height: 125px;}
+.banner .headline ul li a img:hover{
+         width: 278px;
+         height: 128px;
+}
+.banner .wdmp{float: left;margin-top: 20px; width: 290px;height: 260px;margin-left: 24px; background: #000;}
+.banner .wdmp .card{color: rgb(161, 161, 161);margin:0px 15px ;}
+.banner .wdmp .card h2{line-height: 70px;}
+.banner .wdmp .card p{line-height: 30px;font-size: 12px;}
+.banner .main{margin-top: 20px; float: left; width: 900px; height: 310px;background: #ffffff;}
+.banner .main .dht{margin-bottom: 10px;border-bottom: 1px solid rgb(129, 129, 129);}
+.banner .main .dht ul{margin: 0 37px;margin-top: 10px;width: 500px;height: 50px;}
+.banner .main .dht ul li{float: left;padding: 15px;}
+.banner .main .dht ul li:hover{border-bottom: 3px solid black;}
+.banner .main .dht ul .grrj{border-bottom: 3px solid black;}
+.banner .main .dht ul li a{color: #414141;}
+.banner .main .dhtxm {float: left; width: 275px; height: 100px;}
+.banner .main .dhtxm ul{margin-top: 10px; margin-left: 37px;}
+.banner .main .dhtxm ul li{margin-top: 10px;}
+.banner .main .dhtxm ul li a img{width: 275px;height: 100px;}
+.banner .main .dhtxm1{float: left;width:500px;}
+.banner .main .dhtxm1 ul {margin-left: 60px;}
+.banner .main .dhtxm1 ul li { padding: 9px;width: 145px;}
+.banner .main .dhtxm1 ul li:hover{border-bottom: 1px solid #000;}
+.banner .main .dhtxm1 ul li a{color: rgb(107, 107, 107);font-size: 18px;}
+.banner .main1{float: left;width: 290px; height: 359px;background: #fff;margin-left: 10px;margin-top: 20px;}
+.banner .main1 .zxgx{color:rgb(37, 37, 37); margin: 0 15px;}
+.banner .main1 .zxgx h2{font-size: 16px; line-height: 60px; margin-bottom: 10px;border-bottom: 1px solid rgb(129, 129, 129);}
+.banner .main1 .zxgx ul li{ line-height: 30px; background: #f6f6f6;margin-top: 5px;}
+.banner .main1 .zxgx ul li a:hover{color: #00c1de;}
+.banner .main1 .zxgx ul li a{color:rgb(37, 37, 37) ; line-height: 50px;font-size: 13px;}
+.banner .main2{float: left;margin-top: -30px;width: 900px;height: 690px;background: rgb(255, 255, 255);}
+.banner .main2 .m1{color: rgb(37, 37, 37); margin-bottom: 40px;border-bottom: 1px solid rgb(129, 129, 129);}
+.banner .main2 .m1 ul{ margin-top: 10px;width: 900px; height: 50px;}
+.banner .main2 .m1 ul li{float: right;padding: 15px;}
+.banner .main2 .m1 ul li:hover{border-bottom: 3px solid #000;}
+.banner .main2 .m1 ul li a{color: rgb(107, 107, 107);font-size: 16px;}
+.banner .main2 .m1 ul .tbjt{float: left;margin-left: 10px; border-bottom: 3px solid black;}
+.banner .main2 .m2{float: left; width: 275px;height: 250px;  margin-bottom: 10px;border-bottom: 1px solid rgb(129, 129, 129);}
+.banner .main2 .m2 img{float: left;margin-left: 50px;margin-top: 20px; }
+.banner .main2 .m2 img:hover{
+    width: 255px;
+    height: 115px;
+}
+.banner .main2 .m2 p{margin-left: 50px; margin-top: 135px;}
+.banner .main2 .m2 a{line-height: 110px;margin-left: 50px;font-size: 14px;color: rgb(15, 182, 71);}
+.banner .main2 .m2 a:hover{color: #00c1de;}
+.banner .main2 .m3{float: left; width: 275px; height: 284px;}
+.banner .main2 .m3 img{  float: left;margin-left: 50px;margin-top: 20px;}
+.banner .main2 .m3 img:hover{
+    width: 255px;
+    height: 115px;
+}
+.banner .main2 .m3 p{margin-left: 50px; margin-top: 135px;}
+.banner .main2 .m3 a{line-height: 110px;margin-left: 50px;font-size: 14px;color:rgb(15, 182, 71);}
+.banner .main2 .m3 a:hover{color: #00c1de;}
+.banner .main3{float: left;width: 290px;height: 520px;background: #fff;margin-top: 20px;margin-left: 10px;}
+.banner .main3 .m5 h2{font-size: 16px;line-height: 60px;margin-bottom: 10px;border-bottom: 1px solid rgb(88, 88, 88);margin-left: 20px;}
+.banner .main3 .m5 ul{margin-left: 20px;background: url(../css/img/15.jpg) ; width: 245px;height: 108px; Opacity:7;}
+.banner .main3 .m5 ul li {margin-left: 30px;padding:36px;}
+.banner .main3 .m5 ul li a{color: #fff;font-size: 18px;}
+.banner .main3 .m6 ul li{padding: 20px;}
+.banner .main3 .m6 ul li a{color: #000;    font-size: 12px;}
+.banner .main3 .m6 ul li a:hover{color: #00c1de;}
+.banner .main3 .m6 ul .tp img{width: 80px;height: 20px;}
+.banner .main3 .m5 h2 {margin-left: 10px; border-bottom: 1px solid black;}
+.footer{width: 100%;height: 150px;background: #000;}
+.footer h2{padding: 65px;text-align: center;color: #fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .main .main1 .main1-1 a img{
+    float: left;
+    width: 616px;
+    height: 260px;
+}.main .main1 .main1-2 a{
+    width: 270px;
+    height: 125px;
+}
+.main .main1 .main1-2 a img{
+    margin-left: 10px;
+    width: 270px;
+    height: 125px;
+}
+.main .main1 .main1-3 {
+}
+.main .main1 .main1-3 a img{
+    margin-top: 6px;
+    margin-left: 10px;
+    width: 270px;
+    height: 125px;
+}
+.main .main1 .main1-4{
+    width: 282px;
+    height: 260px;
+    background: rgba(42,42,42,1);
+} */
+
+
+
+
+
+
